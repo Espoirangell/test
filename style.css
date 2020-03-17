@@ -1,0 +1,414 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.background {
+	width: 100%;
+	height: 100px;
+	background-color: #202124;
+}
+
+.box {
+	position: relative;
+	width: 1140px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #202124;
+}
+
+.rectangle-99-copy {
+	position:absolute;
+	width: 105px;
+	height: 30px;
+	background-color: #f92525;
+	left:105px;
+	top:30px;
+	border-radius: 5px;
+}
+
+.square {
+	position:absolute;
+	width: 110px;
+	height: 40px;
+	background-color: #f92525;
+	border-radius: 2px;
+	top: 30px;
+		right: 105px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+/*.log-out {
+	position: absolute;
+	width: 70px;
+	height: 19px;
+	font-family: Raleway-Bold;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 15px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}*/
+
+.content {
+	position:relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 1279px;
+	background-color: lightgray;
+}
+
+.container {
+	width: 1140px;
+	height: 160px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+.top {
+	position:absolute;
+	width: 273px;
+	height: 51px;
+	top:70px;
+	background-color: lightgray;
+}
+
+.audience-overview {
+	width: 272px;
+	height: 23px;
+	font-family: Raleway-Regular;
+	font-size: 28.5px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #262b2e;
+}
+
+.roseville-ca {
+	width: 87px;
+	height: 14px;
+	font-family: OpenSans;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 40px;
+	letter-spacing: 0px;
+	color: #262b2e;
+	opacity: 0.7;
+}
+
+.nav {
+	position:absolute;
+	width: 469px;
+	height: 50px;
+	right: 0px;
+	top:70px;
+}
+
+.dashboard-projects-calendar-mailbox-settings {
+	width: 469px;
+	height: 33px;
+	font-family: OpenSans-Bold;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #262b2e;
+	list-style-type:none;
+}
+
+.nav .dashboard-projects-calendar-mailbox-settings a {
+	display:block;
+	text-decoration:none;
+	color:black;
+	padding:13px 13px;
+    text-align: center;
+}
+
+.nav .dashboard-projects-calendar-mailbox-settings li {
+	float:left;
+}
+
+.banner {
+	position: relative;
+	width: 1140px;
+	height: 288px;
+	margin: 0 auto;
+}
+
+.base {	
+	position: relative;
+	width: 560px;
+	height: 288px;
+	background-color:#ffffff;
+}
+
+.position-one {
+	float: left;
+}
+
+.position-two {
+	float: right;
+}
+
+.imglist {
+	list-style:none;
+}
+
+.img {
+	position:absolute;
+	padding: 10px;
+	width:539px;
+	height:267px;
+	opacity:0;
+	transition: all .5s;
+}
+
+.item .active {
+	z-index:10;
+	opacity: 1;
+}
+
+.btn {
+	position:absolute;
+	top:144px;
+	width:35px;
+	height:50px;
+	background-color:black;
+	opacity: 0.5;
+	color:white;
+	border:black;
+	cursor: pointer;
+	z-index:100;
+}
+
+#gopre {
+	left:10px;
+}
+
+#gonext {
+	right:10px;
+}
+
+.pointlist {
+	padding-left: 0px;
+	list-style: none;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+}
+
+.point {
+	width: 7px;
+	height: 7px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 100%;
+	float: left;
+	margin-right:10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+
+.point.active {
+	background-color: rgba(255,255,255,0.8);
+}
+
+.line {
+	position:absolute;
+	top: 109px;
+	width: 560px;
+	height: 2px;
+	background-color: gray;
+	opacity: 0.7;
+}
+
+
+.box-header {
+	width: 100%;
+	height: 109px;
+}
+
+.support-requests {
+	float: left;
+	margin-top: 50px;
+	margin-left: 49px;
+	width: 148px;
+	height: 25px;
+	font-family: OpenSans;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #262b2e;
+	opacity: 0.7;
+}
+
+.square-two {
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	width: 95px;
+	height: 40px;
+	border-radius: 2px;
+	border: solid 2px #262b2e;
+	opacity: 0.7;
+	cursor: pointer;
+	background-color: #5dd054;
+}
+
+.time {
+	position: absolute;
+	left: 49px;
+	top: 138px;
+	width: 34px;
+	height: 24px;
+	font-family: OpenSans-Bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #262b2e;
+}
+
+.user-name {
+	position: absolute;
+	left: 153px;
+	top: 138px;
+	width: 90px;
+	height: 24px;
+	font-family: OpenSans-Bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #262b2e;
+}
+
+.status {
+	position: absolute;
+	left:457px;
+	top:138px;
+	width: 52px;
+	height: 24px;
+	font-family: OpenSans-Bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #262b2e;
+}
+
+.base-two {
+	position: relative;
+	margin: 0 auto;
+	width: 1140px;
+	height: 349px;
+	top:20px;
+	background-color: white;
+}
+
+.echart {
+	position: relative;
+	top: 40px;
+	width: 1140px;
+	height: 377px;
+	margin: 0 auto;
+}
+
+.base-three {
+	width: 560px;
+	height: 377px;
+	background-color:#ffffff;
+}
+
+.position-three {
+	float: left;
+}
+
+.position-four {
+	float: right;
+}
+
+.background-two {
+	width: 100%;
+	height: 253px;
+	background-color: #202124;
+}
+
+.footer {
+	position: relative;
+	width: 1140px;
+	height: 253px;
+	margin: 0 auto;
+}
+
+.rectangle-99-copy-two {
+	position: absolute;
+	left:150px;
+	top:80px;
+	width: 105px;
+	height: 30px;
+	background-color: #f92525;
+	border-radius: 5px;
+}
+
+.l-o-g-o {
+	position: absolute;
+	left: 32px;
+	top: 10px;
+	width: 45px;
+	height: 12px;
+	font-family: MyriadPro-Regular;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 10px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
+.links {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.link-box {
+	width: 776px;
+	height: 115px;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+.news-channels-overview-timeline {
+	width: 72px;
+	height: 115px;
+	list-style:none;
+	flex: 1;
+}
+
+.news-channels-overview-timeline a {
+	text-decoration: none;
+	font-family: Raleway-Bold;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 28px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
